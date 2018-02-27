@@ -19,7 +19,7 @@ public class HelloController {
     
     @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping
-	@RequestMapping(value="/getPersonalInfo")
+	@RequestMapping(value="/getAboutMe")
 	public List<String> getPersonalInfo() {
 		List<String> personalDetails = new ArrayList<String>();
 		personalDetails.add("Mitchell Irvin");
